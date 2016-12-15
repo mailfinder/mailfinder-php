@@ -1,0 +1,29 @@
+{
+    "name": "mailfinder/mailfinder-v1",
+    "description": "Biblioteca para utilização em conjunto com a plataforma Mailfinder de validações de emails",
+		"homepage": "https://github.com/mailfinder/mailfinder-php.git",
+    "autoload": {
+        "psr-4" : {
+            "Mailfinder\\" : ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {"Mailfinder\\": ""}
+		},
+    "authors": [
+        {
+            "name": "mailfinder.io",
+            "email": "contact@mailfinder.io",
+            "homepage" : "http://www.mailfinder.io"
+        }
+		],
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*"
+		},
+    "require-dev": {
+        "php": ">=5.3",
+        "ext-curl": "*"
+		},
+    "license": "MIT"
+}
