@@ -4,11 +4,11 @@
 		"homepage": "https://github.com/mailfinder/mailfinder-php.git",
     "autoload": {
         "psr-4" : {
-            "Mailfinder\\" : "src"
+            "Mailfinder\\" : "src/"
         }
     },
     "autoload-dev": {
-        "psr-4": {"Mailfinder\\": "src"}
+        "psr-4": {"Mailfinder\\": "src/"}
 		},
     "authors": [
         {
